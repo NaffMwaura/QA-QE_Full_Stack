@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(145deg, #dde7f1, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-card {
+    background: #ffffff;
+    padding: 3rem;  /* Increased padding */
+    width: 350px;   /* Slightly wider */
+    min-height: 450px;  /* Increased height */
+    text-align: center;
+    border-radius: 1.8rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 65px;
+    margin-bottom: 1.5rem; /* More spacing */
+}
+
+h1 {
+    font-size: 1.7rem; /* Slightly larger text */
+    color: #292929;
+    margin-bottom: 0.5rem; /* Extra spacing */
+}
+
+p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem; /* More spacing */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;  /* Increased spacing */
+    margin-bottom: 2.5rem; /* More spacing */
+}
+
+.social-icons a {
+    color: #666;
+    font-size: 1.7rem;  /* Bigger icons */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b5;
+}
+
+.cta-button {
+    background-color: white;
+    color: #292929;
+    padding: 1rem 2rem; /* Bigger button */
+    border: 2px solid #d6e1f0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0077b5;
+    color: white;
+}

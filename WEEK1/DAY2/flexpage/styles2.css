@@ -1,0 +1,208 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: nowrap; 
+}
+
+
+nav {
+    display: flex;
+    gap: 85px;
+    flex-wrap: nowrap; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    white-space: nowrap; 
+}
+
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    white-space: nowrap;
+}
+
+.account span {
+    font-size: 16px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-icon {
+    font-size: 18px;
+}
+
+.items-count {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    margin-top: 20px;
+}
+
+
+.account-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.steps {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.steps span {
+    background: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.steps .active {
+    background: #007bff;
+    color: white;
+}
+
+.form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.login {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register {
+    background: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.shipping {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.order-summary {
+    width: 350px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.details {
+    flex: 1;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}
