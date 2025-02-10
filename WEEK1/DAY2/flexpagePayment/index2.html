@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            
+            <nav  class="myClass">
+                <div class="logo">
+                    <img src="./download.png" alt="" style="width: 100px; height: auto;">
+
+                </div>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+            
+            <div class="account">
+                <span>Account </span>
+                <span>🛒 3 items</span>
+                <img src="./192091558.png" alt="User" class="avatar">
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="account-section">
+            <h2>Account</h2>
+            <div class="steps">
+                <span class="active">✔ Account</span>
+                <span class="active">✔ Shipping</span>
+                <span >--Payment</span>
+            </div>
+
+            <div class="form">
+                <label>Email address</label>
+                <input type="email" placeholder="Email@myemail.com">
+                
+                <label>Password</label>
+                <input type="password" placeholder="********">
+                
+                <div class="buttons">
+                    <button class="register">Register for account</button>
+                    <button class="login">Login</button>
+                   
+                </div>
+            </div>
+
+            <div class="bottom-buttons">
+                <button class="cancel">Cancel order</button>
+                <button class="shipping">Shipping details</button>
+            </div>
+        </div>
+
+        <div class="order-summary">
+            <h2>Order Summary</h32>
+                <div class="product">
+                    <img src="./images.jpeg" alt="Sony Wireless Headphones" class="product-image">
+                    <div class="details">
+                        <p class="product-title">Sony wireless headphones</p>
+                        <div class="price-quantity">
+                            <p class="price"><strong>£320.45</strong>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="discount">
+                <input type="text" placeholder="Gift Card / Discount code">
+                <button class="apply">Apply</button>
+            </div>
+            <div class="summary"> <br>
+                <p>Sub total <span>£316.55</span></p>
+                <p>Tax <span>£3.45</span></p>
+                <p>Shipping <span class="free">Free</span></p>
+                <p class="total"><strong>Total <span>£320.45</span></strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

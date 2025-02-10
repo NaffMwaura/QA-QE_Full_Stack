@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.account span {
+    font-size: 16px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 50px;
+    max-width: 1200 px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    margin-top: 50px;
+  
+}
+
+.account-section {
+    flex: 1;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 120px;
+}
+
+.steps {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.steps span {
+    font-size: 14px;
+    color: #888;
+}
+
+.steps .active {
+    color: #333;
+    font-weight: bold;
+}
+
+.form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #dadbdd;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 45px;
+    gap: 250px;
+}
+
+.login {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register {
+    background: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel {
+    background: transparent;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.shipping {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-summary {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 90px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product img {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+
+
+.details {
+    flex: 13;
+    width: 100%;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    top: auto;
+}
+
+.quantity {
+    display: flex;
+    background: #e0e0e0;
+    gap: 5px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.quantity button {
+    background: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.discount {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.discount input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.apply {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.summary {
+    width: 100%;
+    padding: 10 px;
+}
+
+.summary p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px 0;
+    margin-bottom: 5px;
+}
+
+.summary .total {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 40 px;
+    gap: 20 px;
+}
+
+
+
