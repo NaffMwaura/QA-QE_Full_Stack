@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="fetchData()">
+    <h1>📗Zoe Bookshop!📗</h1>
+    <select title="filter" id="genre">
+        <option value="All">All</option> <!-- Option to show all genres -->
+        <option value="Fiction">Fiction</option>
+        <option value="Historical Fiction">Historical Fiction</option>
+        <option value="Romance">Romance</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Dystopian">Dystopian</option>
+    </select>
+    
+    <select title="Sort by" id="sort-year-or-pages">
+        <option>Pages</option>
+        <option>Years</option>
+    </select>
+    <select title="SortOrder" id="sort-order">
+        <option>Ascending</option>
+        <option>Descending</option>
+    </select>
+    
+    <!-- Cart Button -->
+    <button id="myBtn">
+        🛒Cart 
+        <p id="items-in-cart">0</p>
+    </button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: $<span id="total-price">0</span></p>
+        </div>
+    </div>
+
+    <div class="data"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
