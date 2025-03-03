@@ -1,0 +1,20 @@
+{
+  "name": "mutabilitytypescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "dev:start": "nodemon  src/index1.ts",
+    "start": "node dist/index1.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "assignmentmutability",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "dev:start": "pnpm exec nodemon --exec pnpm exec ts-node src/index.ts",
+
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}

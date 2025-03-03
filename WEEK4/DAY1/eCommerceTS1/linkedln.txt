@@ -1,0 +1,21 @@
+
+
+My week 4 at Teach2Give
+
+I am excited to share about my learning progress
+in my fourth week of attachment. We rigourously dived into typescript 
+wich is syntactic superset of JavaScript which adds static typing.
+This is what I have learned so far:
+
+Types and annotations(in objects, functions, interfaces, classes)
+Unions, Literals and Narrowing wich allows variables, parameteres and retuen types to hold more than one types of value
+Mutability in Typescipt- readonly and immutable types
+Generics in functions, classes and interfaces
+Testing with Jest- Ensuring my code is correct and running as expected
+
+
+What I found amazing about typescript is its improved readability and
+easier error identification at compile time.
+Additionally, I was able to convert my existing JavaScript code to typescript. At first it was a challenge to me 
+but I manged to do it. Grateful to my friends Emma, kefah and George for their support and guidance.
+Big thanks to our able trainer Almin for his patience and encouragement.
