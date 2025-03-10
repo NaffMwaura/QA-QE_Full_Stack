@@ -1,0 +1,15 @@
+My week 5 at Teach2give
+
+I am thrilled to share the growth and skills I've learnt this week. We dived into backend with express. At the  
+onset of the week, it was quite overwhelming trying to understand how it works. I actually had not understood how the entire thing is wroking. I put more effort into it and by the end 
+of the week I've seen a lot of progress. On the same note I was able to filter the booksApp application using backend express.
+Furthermore, we learnt the following:
+
+1. Express set up
+1. Query Params with express
+2. Routing Params with express
+3. CRUD operations( Crate, Read, Update,Delete  with postgress PGAdmin)
+5. Using postman in the CRUD operations
+
+I'm grateful to my triner Alamin Juma for the unwavering support and committment to nurture us into devs. Finally to the entire Teach2give
+family, thank you so much for accurately defining my career path
